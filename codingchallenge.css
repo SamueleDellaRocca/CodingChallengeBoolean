@@ -1,0 +1,81 @@
+/* questo è lo sfondo generale */
+body {
+ background-image: url(Immagini/background.jpg);
+background-size: cover;
+padding-bottom: 190px;
+}
+
+/* questo è il riquadro nero */
+#sfondo{
+ width: 1000px;
+ height: 800px;
+ background-color: #0000008a;
+ margin: auto;
+ border-radius: 15px;
+ padding-bottom: 30px;
+}
+
+/* logo e scritta lim */
+.logo{
+  text-align: center;
+  padding-top: 80px;
+}
+
+#logolim{
+  width: 250px;
+}
+/* scritta colore verde */
+h1{
+  color: #09ea09;
+  margin-top: 2px;
+}
+/* barra verde contenente i bottoni */
+.row{
+  width: 800px;
+  background-color: #09ea09;
+  margin: auto;
+  text-align: center;
+  padding: 12px;
+}
+
+/* caratteristiche div monopattini */
+.monopattino{
+  width: 800px;
+  margin:auto;
+  padding-top: 10px;
+  color: white;
+  margin-top: 12px;
+}
+
+h2{
+  display: inline-block;
+  margin: 1px;
+}
+
+p{
+  margin: 5px;
+}
+
+/* barra della carica monopattino 1 */
+.carica1{
+  width: 300px;
+  height: 25px;
+  background-color: orange;
+  border-radius: 5px;
+}
+
+/* barrav della carica monopattino 2 */
+.carica2{
+  width: 500px;
+  height: 25px;
+  background-color: green;
+  border-radius: 5px;
+}
+
+/* barra della carica monopattino 3 */
+.carica3{
+  width: 100px;
+  height: 25px;
+  background-color: red;
+  border-radius: 5px;
+}
